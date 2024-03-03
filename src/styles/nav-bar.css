@@ -12,7 +12,8 @@ body {
 }
 ul {
   padding: 0;
-  margin-left: 400px;
+  position: absolute;
+  right: 10px;
 }
 #nav-horizontal > ul > li {
   float: left;
@@ -97,20 +98,36 @@ ul {
   height: 3px;
   margin: 8px 10px;
 }
+
+@media (max-width: 700px) {
+  #caixa {
+    animation: menu;
+    animation-duration: 2s;
+    display: block;
+  }
+  #bar-vertical {
+    display: none;
+  }
+}
 #caixa:hover {
   border-color: white;
   .linhas {
     background-color: white;
   }
-  #nav-vertical {
+  #nav-vertical,
+  #bar-horizntal {
     display: block;
   }
 }
-@media (max-width: 1000px) {
-  #caixa {
-    display: block;
+@keyframes menu {
+  from {
+    #nav-vertical {
+      display: none;
+    }
   }
-  #bar-vertical {
-    display: none;
+  to {
+    #nav-vertical {
+      display: none;
+    }
   }
 }
