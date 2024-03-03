@@ -1,0 +1,116 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+#nav-horizontal {
+  background-color: rgb(33, 37, 41);
+  display: flex;
+  min-height: 50px;
+  min-width: 100%;
+  max-height: 50px;
+}
+ul {
+  padding: 0;
+  margin-left: 400px;
+}
+#nav-horizontal > ul > li {
+  float: left;
+  list-style: none;
+  color: white;
+  font-size: 1.5em;
+  margin-right: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+#nav-horizontal > ul > li:hover {
+  color: #555;
+}
+#nav-vertical > ul > li:hover {
+  color: #555;
+}
+#assinar:hover {
+  background-color: rgb(218, 41, 28);
+  color: white;
+}
+#logo {
+  color: white;
+  font-size: 2em;
+  margin-left: 30px;
+  font-weight: bold;
+  min-width: 60px;
+}
+#assinar {
+  color: rgb(218, 41, 28);
+  margin-left: 50px;
+  margin-top: 5px;
+  min-height: 40px;
+  max-height: 40px;
+  margin-bottom: 20px;
+  border: solid rgb(218, 41, 28) 1px;
+  text-align: center;
+  padding: 0 5px;
+  padding-bottom: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  border-radius: 5px;
+}
+#logo::first-letter {
+  color: rgb(218, 41, 28);
+}
+#nav-vertical {
+  display: none;
+  margin: 0;
+  background-color: rgb(33, 37, 41);
+}
+#nav-vertical > ul > li {
+  color: red;
+  list-style: none;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#nav-vertical > ul {
+  margin-left: auto;
+  padding: 0;
+}
+#caixa {
+  display: none;
+  background-color: rgb(33, 37, 41);
+  width: 75px;
+  height: 45px;
+  border: gray solid 2px;
+  text-align: center;
+  border-radius: 5px;
+  position: fixed;
+  top: 1px;
+  right: 20px;
+  z-index: 3;
+}
+.linhas {
+  background-color: gray;
+  width: 50px;
+  height: 3px;
+  margin: 8px 10px;
+}
+#caixa:hover {
+  border-color: white;
+  .linhas {
+    background-color: white;
+  }
+  #nav-vertical {
+    display: block;
+  }
+}
+@media (max-width: 1000px) {
+  #caixa {
+    display: block;
+  }
+  #bar-vertical {
+    display: none;
+  }
+}
