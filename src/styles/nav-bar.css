@@ -9,6 +9,7 @@ body {
   min-height: 50px;
   min-width: 100%;
   max-height: 50px;
+  border-bottom: rgb(13, 27, 21) solid 1px;
 }
 ul {
   padding: 0;
