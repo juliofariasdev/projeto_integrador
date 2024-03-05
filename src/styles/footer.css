@@ -7,3 +7,15 @@ footer {
   text-align: center;
   border-top: rgb(13, 27, 21) solid 1px;
 }
+#copy {
+  position: relative;
+  margin-bottom: 0px;
+  background-color: rgb(5, 5, 5);
+  bottom: 0px;
+}
+footer > p:nth-child(2) {
+  word-spacing: 20px;
+}
+footer > p:nth-child(2):hover {
+  color: gray;
+}
