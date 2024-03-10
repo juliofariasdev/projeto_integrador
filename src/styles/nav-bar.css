@@ -9,13 +9,18 @@ body {
   min-height: 50px;
   min-width: 100%;
   max-height: 50px;
-  border-bottom: rgb(13, 27, 21) solid 1px;
+  border-bottom: rgb(13, 27, 21) solid 0px;
+  box-shadow: 1px 0px 4px black;
 }
 ul {
   padding: 0;
   position: absolute;
   right: 20px;
   top: 10px;
+}
+nav {
+  position: fixed;
+  z-index: 3;
 }
 #nav-horizontal > ul > li {
   float: left;

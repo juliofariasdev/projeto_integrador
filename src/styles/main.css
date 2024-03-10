@@ -4,14 +4,12 @@ body {
 h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  position: absolute;
-  right: 200px;
   color: white;
   font-size: 3em;
   font-weight: lighter;
-  position: absolute;
-  right: 50px;
-  top: 100px;
+  position: relative;
+  left: 700px;
+  top: -300px;
   text-align: center;
   width: 500px;
 }
@@ -24,4 +22,10 @@ h1 > span {
 h1::first-line {
   font-weight: 700;
   font-size: 2em;
+}
+img {
+  border-radius: 200px;
+  position: relative;
+  top: 70px;
+  left: 200px;
 }
