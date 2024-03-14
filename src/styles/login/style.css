@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(33, 37, 41);
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+form {
+  background-color: white;
+  height: 512px;
+  width: 572px;
+  margin-top: 96px;
+  color: rgb(15, 15, 15);
+  border-radius: 5px;
+  text-align: center;
+}
+h1 {
+  color: red;
+  position: relative;
+  margin-top: 50px;
+}
+input {
+  margin: auto;
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 30px;
+  width: 300px;
+  padding: 10px;
+  border: 2px;
+  border-color: #888;
+  border-style: solid;
+}
+label {
+  padding-right: 49%;
+  position: relative;
+  color: red;
+}
+input[type="button"] {
+  width: 320px;
+  color: white;
+  background-color: black;
+  border-style: none;
+  border: 2px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: bolder;
+}
