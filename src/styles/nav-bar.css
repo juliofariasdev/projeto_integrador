@@ -59,11 +59,13 @@ nav {
   margin-bottom: 20px;
   border: solid rgb(218, 41, 28) 1px;
   text-align: center;
-  padding: 0 5px;
+  display: block;
   padding-bottom: 0;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: lighter;
   border-radius: 5px;
+  padding: 0 5px;
+  padding-top: 5px;
 }
 #logo::first-letter {
   color: rgb(218, 41, 28);

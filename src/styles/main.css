@@ -9,7 +9,7 @@ h1 {
   font-weight: lighter;
   position: relative;
   left: 700px;
-  top: -300px;
+  top: -200px;
   text-align: center;
   width: 500px;
 }
@@ -26,6 +26,6 @@ h1::first-line {
 img {
   border-radius: 200px;
   position: relative;
-  top: 70px;
+  top: 200px;
   left: 200px;
 }
