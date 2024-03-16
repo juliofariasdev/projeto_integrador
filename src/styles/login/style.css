@@ -9,13 +9,13 @@ body {
   font-weight: 500;
 }
 form {
-  background-color: white;
   height: 512px;
   width: 572px;
   margin-top: 96px;
   color: rgb(15, 15, 15);
   border-radius: 5px;
   text-align: center;
+  border: solid 1px white;
 }
 h1 {
   color: red;
@@ -36,7 +36,7 @@ input {
 label {
   padding-right: 49%;
   position: relative;
-  color: red;
+  color: white;
 }
 input[type="button"] {
   width: 320px;
@@ -49,6 +49,9 @@ input[type="button"] {
   font-weight: bolder;
   padding: 15px;
   margin-bottom: 0px;
+}
+p {
+  color: white;
 }
 a {
   color: red;
