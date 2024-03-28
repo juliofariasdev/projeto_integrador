@@ -1,21 +1,10 @@
 footer {
-  background-color: rgb(43, 47, 51);
+  background-color: rgb(191, 227, 56);
   position: relative;
   bottom: 0;
   color: white;
   width: 100%;
   text-align: center;
-  border-top: rgb(13, 27, 21) solid 1px;
+  border-top: rgb(191, 227, 56) solid 1px;
 }
-#copy {
-  position: relative;
-  margin-bottom: 0px;
-  background-color: rgb(5, 5, 5);
-  bottom: 0px;
-}
-footer > p:nth-child(2) {
-  word-spacing: 20px;
-}
-footer > p:nth-child(2):hover {
-  color: gray;
-}
+
