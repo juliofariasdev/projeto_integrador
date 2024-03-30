@@ -1,81 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+<html lang="pt-BR" data-bs-theme="dark">
 
-    <link rel="stylesheet" href="./src/styles/index/footer.css" />
-    <link rel="stylesheet" href="./src/styles/index/main.css" />
-    <link rel="shortcut icon" type="image/jpeg" href="./src/imgs/logo.jpeg" />
-    <link rel="stylesheet" href="./src/styles/index/nav-bar.css" />
-    <title>Musculação</title>
-  </head>
-  <body>
-    <nav id="nav-horizontal">
-      <div id="logo">Musculação</div>
-      <ul id="bar-horizontal">
-        <li>Home</li>
-        <li>O que é</li>
-        <li>Tipos</li>
-        <li>Benefícios</li>
-        <li>Contato</li>
-      </ul>
-    </nav>
-    <div>
-      <main>
-        <h1>O QUE É MUSCULAÇÃO</h1>
-        <p>
-          A musculação é uma modalidade que conta com movimentos, exercícios e
-          grupos musculares que podem ser trabalhados em um único treino. Por
-          ser de baixo impacto, é indicada para todas pessoas. Pois seus
-          exercícios podem ser facilmente adaptados de acordo com as limitações
-          e pelo controle da carga.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <link rel="shortcut icon" type="image/jpeg" href="./src/imgs/logo.jpeg" />
+
+  <title>Musculação</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Musculação</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">O que é</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#benefits">Benefícios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="about" class="container-fluid">
+    <div class="row mt-5 pt-3 px-4 align-items-center">
+      <div class="col-md-7">
+        <h1>O que é musculação?</h1>
+        <p class="fs-5 fw-light">
+          A <strong>musculação</strong> é uma modalidade de exercício de baixo impacto adequada para todas as pessoas,
+          pois pode
+          ser adaptada às limitações individuais. <br /> Para as mulheres, é especialmente benéfica na prevenção da
+          <a href="#" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-title="Os sintomas podem variar em intensidade e duração de uma mulher para outra. Eles incluem alterações de humor, como irritabilidade, ansiedade, tristeza ou raiva, aumento da sensibilidade emocional e sensação de tristeza ou de estar sobrecarregada.">sintomas
+            da TPM</a>, devido à liberação de
+          endorfinas e outros hormônios. Além
+          disso, ajuda no ganho de resistência e massa muscular, especialmente se o treino for voltado
+          para <a href="#" class="text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-title="A hipertrofia muscular é o aumento do tamanho e do volume dos músculos.">hipertrofia.</a>
+          <br /> A musculação também é eficaz para a perda de peso, pois estimula a
+          musculatura a
+          consumir mais calorias, favorecendo a queima de gordura.
         </p>
+      </div>
+      <div class="col-md-5">
+        <img src="./src/imgs/workout.svg" alt="musculação" />
+      </div>
+    </div>
+
+    <h1 id="benefits" class="px-3">Benefícios da musculação -</h1>
+    <div class="row row-cols-1 row-cols-md-3 px-3 justify-content-center">
+      <div class="col">
+        <h3>A força corporal aumenta</h3>
         <p>
-          Para mulheres, por exemplo, é uma ótima aliada contra a osteoporose e
-          alivia sintomas da TPM por causa da liberação de endorfinas e outros
-          hormônios responsáveis pelo bem-estar. Além disso, do ponto de vista
-          estético, o maior destaque vai para o ganho de resistência e de massa
-          muscular, caso seu treino seja voltado para hipertrofia
-          (desenvolvimento dos músculos).
+          Ao treinar, você fortalece não só o corpo, mas também o cérebro, que se torna mais eficiente no controle da
+          massa muscular. O aumento do tamanho muscular está ligado ao aumento da força, mas não depende apenas do
+          volume. O cérebro precisa recrutar o maior número possível de fibras musculares para realizar tarefas como
+          levantar uma mala do chão.
         </p>
-        <p>
-          Outra vantagem: é uma excelente modalidade para perder peso. Assim,
-          quando a musculatura é estimulada, consome mais calorias para a
-          manutenção das fibras. Dessa forma, você consumirá mais calorias para
-          manter a estrutura dos músculos, o que favorece a queima de gordura.
-        </p>
-        <h1>BENEFÍCIOS DA MUSCULAÇÃO</h1>
-        <h2>A força corporal aumenta</h2>
-        <p>
-          Ao treinar, você estará exercitando não só o corpo, mas também seu
-          cérebro, que fica mais eficiente no comando da massa muscular. Isso
-          porque o aumento de tamanho de músculo é igual a aumento de força. Mas
-          não é só isso. Ela não depende apenas do volume, mas da capacidade de
-          o cérebro recrutar o maior número possível de fibras musculares para,
-          por exemplo, você levantar uma mala do chão. As fibras estão lá, nos
-          músculos, mas o sistema nervoso que os comanda pode não convocá-las da
-          melhor maneira.
-        </p>
-        <h2>O coração fica mais saudável</h2>
+      </div>
+      <div class="col">
+        <h3>O coração fica mais saudável</h3>
         <p>
           A musculação é uma ótima aliada quando o assunto é treinar o coração
           para esforços intensos. Um trabalho científico documentou que quando a
           pessoa fortalece os músculos, a frequência cardíaca e a pressão
           arterial sobem menos com o esforço.
         </p>
-        <h2>Musculação aumenta a flexibilidade</h2>
+      </div>
+      <div class="col">
+        <h3>Aumenta a flexibilidade</h3>
         <p>
           Um estudo recente mostrou que há eficiência no treinamento com peso
           para aumentar também a flexibilidade.
         </p>
-        <h2>Os ossos ficam mais resistentes</h2>
+      </div>
+      <div class="col">
+        <h3>Os ossos ficam mais resistentes</h3>
         <p>
           A musculação estimula a produção de células ósseas. Não é à toa que
           ela tem sido utilizada no combate à osteoporose. Atividades de
@@ -83,7 +96,9 @@
           os exercícios com peso, se bem orientados, são mais seguros para as
           articulações.
         </p>
-        <h2>Musculação corrije a postura</h2>
+      </div>
+      <div class="col">
+        <h3>Musculação corrije a postura</h3>
         <p>
           Ao desenvolver a musculatura, você melhora a postura, já que são os
           músculos que sustentam os ossos. É por isso que pessoas muito magras
@@ -92,13 +107,17 @@
           o trabalho com peso é a melhor forma de tratamento para a maioria dos
           casos de dores nas costas.
         </p>
-        <h2>Trabalha a autoestima</h2>
+      </div>
+      <div class="col">
+        <h3>Trabalha a autoestima</h3>
         <p>
           Estar mais bonita, ágil e saudável são fatos que contribuem para
           elevar a sua autoconfiança e fazer com que você se sinta bem consigo
           mesma. O melhor de tudo: os benefícios estéticos obtidos são rápidos.
         </p>
-        <h2>Previne o envelhecimento</h2>
+      </div>
+      <div class="col">
+        <h3>Previne o envelhecimento</h3>
         <p>
           Um pessoa perde, em média, 10% de massa muscular entre os 25 e os 50
           anos e 30% entre os 50 e 80 anos. O melhor é tratar de ganhar músculos
@@ -106,7 +125,9 @@
           diversos países mostraram que a perda muscular é bastante amenizada
           com os exercícios de resistência.
         </p>
-        <h2>Diminui a celulite</h2>
+      </div>
+      <div class="col">
+        <h3>Diminui a celulite</h3>
         <p>
           “Celulite é uma questão de muito tecido adiposo e pouco músculo”,
           garante Wayne Westcott, diretor de pesquisa da Associação Cristã de
@@ -119,24 +140,39 @@
           Ela pode ficar flácida e cheia de furinhos, porque há ainda pouca
           substância para recheá-la”, afirma.
         </p>
-        <h2>Melhora o sono</h2>
+      </div>
+      <div class="col">
+        <h3>Melhora o sono</h3>
         <p>
           Estudos revelam que as pessoas que praticam atividade física com
           frequência dormem melhor. Afinal, depois de um longo dia de trabalho e
           um treino com peso, ficar acordado será um desafio. Afinal, você já
           gastou boa parte da sua energia.
         </p>
-        <h2>Diminui o estresse</h2>
+      </div>
+      <div class="col">
+        <h3>Diminui o estresse</h3>
         <p>
           A atividade física estimula a liberação de endorfinas que estão
           ligadas à sensação de prazer e bem-estar.
         </p>
-      </main>
-      <footer>
-        <p>contato: jjuliossilva48@gmail.com</p>
-        <p style="margin-bottom: 0">Home planos contatos ajuda</p>
-      </footer>
+      </div>
     </div>
-    <script src="./src/scripts/index.js"></script>
-  </body>
+  </div>
+  <div class="bg-body text-light mt-2 text-center p-3 container-fluid">
+    <hr />
+    <div class="justify-content-center row">
+      <div class="col-md-4"><span>Contate-nos: </span>
+        <p id="contact" class="text-muted">
+          E-mail: jjuliossilva48@gmail.com <br />
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="src/scripts/tooltips.js"></script>
+</body>
+
 </html>
